@@ -5,6 +5,14 @@ This document outlines the improvements made to the Customer Rewards System, inc
 
 ## Major Enhancements
 
+## Design Details
+
+### Architecture
+- **Controller Layer**: Handles HTTP requests and input validation
+- **Service Layer**: Contains business logic for rewards calculation
+- **Model Layer**: Data objects
+- **Exception Handling**: Global exception handler for consistent error responses
+
 ### 1. Database Integration
 - Implemented H2 in-memory database for data persistence
 - Added Spring Data JPA support
